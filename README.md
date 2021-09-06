@@ -3,12 +3,12 @@
 ## How to join the project:
 ### Install git:
 1. Download git:
-  * Windows download and install git bash - https://gitforwindows.org/
-  * If you have Linux installed you probably know how to download and install 
+   * Windows download and install git bash - https://gitforwindows.org/
+   * If you have Linux installed you probably know how to download and install 
 2. Learn git basics - https://www.youtube.com/watch?v=USjZcfj8yxE
 3. Read our guide down below about most often used commands.
 
-### install python and IDE:
+### Install python and IDE:
 1. Install python from https://www.python.org/downloads/
 2. Install NotePad++ https://notepad-plus-plus.org/downloads/ or real IDE like https://www.jetbrains.com/pycharm/
 
