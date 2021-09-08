@@ -15,7 +15,7 @@ a = '2'
 print('Wartosc a:' + a)
 print(type(a))
 a = a + 'costamcostam'
-print(a)
+print('Wartosc a:' + a)
 
 # Więcej typów
 print('3. Popularne typy:\n\n')
