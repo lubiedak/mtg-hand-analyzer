@@ -3,7 +3,7 @@ print('1. Wstęp:\n\n')
 # 1. Poniżej mamy 2 zmienne o typie tekstowym
 text1 = 'Hello '
 text2 = 'World'
-#Funkcja print dluzy do wypisania czegos na ekran
+#Funkcja print() sluzy do wypisania czegos na ekran
 #Dodawanie tekstu do tekstu oznacza łączenie go
 print(text1 + text2)
 #Dodawanie lub inne działania na liczbach są wykonywane jak na kalkulatorze
@@ -15,7 +15,7 @@ a = '2'
 print('Wartosc a:' + a)
 print(type(a))
 a = a + 'costamcostam'
-print(a)
+print('Wartosc a:' + a)
 
 # Więcej typów
 print('3. Popularne typy:\n\n')
