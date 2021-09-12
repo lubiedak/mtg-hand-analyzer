@@ -1,0 +1,3 @@
+1. Dodaj słowniki dla 5 wybranych przez siebie kart (5 zmiennych card1...card5)
+2. Dla wszystkich kart podaj całkowity koszt kart jako cały string. Czyli dla kosztów 3AFP, SW, A2F ma zostać wypisane: 3AFPSWA2F
+3. Rozwiązanie umieść w swoim folderze

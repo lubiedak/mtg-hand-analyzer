@@ -1,0 +1,4 @@
+1. Dodaj kolejną kartę to `tutorial/1.py` na końcu
+1. Zmodyfikuj `tutorial/1.py` tak, aby karty [słowniki] miały jeszcze jedną cechę, np. - opis, efekt, typ karty
+
+Wyjątkowo swoje zmiany naanieś na `tutorial/1.py` a nie w swoim katalogu zadań
