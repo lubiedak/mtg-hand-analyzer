@@ -1,5 +1,5 @@
 import cherrypy
-
+from templates.histogram_chart import chart
 
 class Page:
     # Store the page title in a class attribute
@@ -50,11 +50,7 @@ class AnotherPage(Page):
 
     @cherrypy.expose
     def index(self):
-        return self.header() + '''
-            <p>
-            And this is the amazing second page!
-            </p>
-        ''' + self.footer()
+        return chart()
 
 
 if __name__ == "__main__":
