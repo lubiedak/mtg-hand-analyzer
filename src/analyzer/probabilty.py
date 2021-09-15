@@ -1,6 +1,6 @@
 # Example:
 # Hand size 7, deck size 60, same_cards 4, expected_picks 2
-# 4/60 * 3/59 * 56/58 * 55/57 * 54/56 * 53/55 * 52/54
+# 4!/2! *4/60 * 3/59 * 56/58 * 55/57 * 54/56 * 53/55 * 52/54
 #               60-2-4+2
 # Hand size 7, deck size 60, same_cards 4, expected_picks 3
 # 4/60 * 3/59 * 2/58 * 56/57 * 55/56 * 54/55 * 53/54
@@ -26,7 +26,7 @@ print(range(7))
 total = 0.0
 cards_in_deck = 4
 for i in range(cards_in_deck + 1):
-    print(exactly_starting_hand_pick(7, 60, cards_in_deck, i))
+    print(str(i) + " : " + str(exactly_starting_hand_pick(7, 60, cards_in_deck, i)))
     total = total + exactly_starting_hand_pick(7, 60, cards_in_deck, i)
 
 print(total)
@@ -34,7 +34,7 @@ total = 0.0
 print("****")
 cards_in_deck = 25
 for i in range(cards_in_deck + 1):
-    print(exactly_starting_hand_pick(7, 60, cards_in_deck, i))
+    print(str(i) + " : " + str(exactly_starting_hand_pick(7, 60, cards_in_deck, i)))
     total = total + exactly_starting_hand_pick(7, 60, cards_in_deck, i)
 print(total)
 
