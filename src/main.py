@@ -1,5 +1,5 @@
 import cherrypy
-from templates.histogram_chart import chart
+from histogram_chart import chart
 
 class Page:
     # Store the page title in a class attribute
